@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <h3>You can reach me out using any of the mentioned below </h3>
+    <table cellspacing="5px" >
+        <tr>
+            <td>
+                <strong>Phone 📞 </strong>
+            </td>
+            <td>
+                +91 634587xxxx
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Email</strong> 📧
+            </td>
+            <td>
+                <em>shreyanshsrivastava368@gmail.com</em>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <strong>Address</strong>
+            </td>
+            <td>Anand Niketan, New Delhi, 110021</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Your Details</h3>
+    <form action="mailto:shreyanshsrivastava368@gmail.com" method="post" enctype="text/plain">
+        <!--encrypt mein text/plain submit karne pr %223 jaisa ni aayega-->
+        <!--name attribute="label text" acche se mail mein lane ke liye-->
+        <table cellspacing="2px">
+            <tr>
+                <td>
+                    <label>Name</label>
+                </td>
+                <td>
+                    <input type="text" name="Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email</label>
+                </td>
+                <td>
+                    <input type="email" name="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Message</label>
+                </td>
+                <td>
+                    <textarea name="Message" rows="10" cols="30">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Click On </label>
+                </td>
+                <td><input type="submit">
+                </td>
+            </tr>
+        </table>
+        
+     </form>
+     
+   
+    
+</body>
+</html>
